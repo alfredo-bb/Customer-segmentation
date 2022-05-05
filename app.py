@@ -59,9 +59,9 @@ def function():
         st.pyplot(fig)
 function()
 
-st.write("""
+st.header("Conclusion")
 
-Conclusion
+st.write("""
 
 In the first graphic "Income",we can see people on clusters 0 and 2 have less income and people on clusters 1 and 3 have more income.
 
