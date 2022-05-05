@@ -59,7 +59,9 @@ def function():
         st.pyplot(fig)
 function()
 
-st.write("""Conclusion
+st.write("""
+
+Conclusion
 
 In the first graphic "Income",we can see people on clusters 0 and 2 have less income and people on clusters 1 and 3 have more income.
 
@@ -67,7 +69,8 @@ Comparing these data with the next cluster we can see that most people with high
 
 We can see that clusters 0 and 2 almost don't buy by catalog and cluster 1 and 3 prefer to buy in the store.
 
-Clusters 0 and 2 are the ones that less campaigns accept.""")
+Clusters 0 and 2 are the ones that less campaigns accept.
+""")
 
 #modelo de clasificacion: every time a new custoemr comes, the model classifies it in one or another cluster
 
